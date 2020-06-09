@@ -1,0 +1,114 @@
+/* Text Editor styles */
+#editor {
+	height: 500px;
+}
+
+.text-editor {
+	padding: 25px;
+}
+
+h3,
+.results {
+	color: #4A148C;
+}
+
+.ql-omega:after {
+	content: "G";
+}
+
+.ql-editor {
+	display: flex;
+}
+
+.ql-editor p {
+	margin: 10px;
+}
+
+.ql-snow.ql-toolbar button,
+.ql-snow .ql-toolbar button {
+	height: auto;
+}
+
+.ql-snow .ql-editor img {
+	margin: 10px;
+	padding: 10px;
+	border: 2px solid #4A148C;
+}
+
+/* Modal Content/Box styles */
+.modal {
+	display: none;
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	/* Enable scroll if needed */
+	background-color: rgb(0, 0, 0);
+	background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+	background-color: #fefefe;
+	margin: 5% auto;
+	padding: 20px;
+	border: 1px solid #888;
+	width: 70%;
+	min-height: 400px;
+}
+
+/* The Close Button */
+.close:hover,
+.close:focus {
+	color: #4A148C;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+/* General styles */
+.no-padding {
+	padding: 0;
+}
+
+.search-results {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.fw-b {
+	font-weight: bold;
+}
+
+.list img {
+	cursor: pointer;
+	margin: 10px;
+	padding: 10px;
+	border: 2px solid #4A148C;
+}
+
+.modal button {
+	background: #4A148C;
+	color: #fff;
+}
+
+.hide {
+	display: none;
+}
+
+.navbar {
+	background: #4A148C;
+	-webkit-box-shadow: 0 8px 6px -6px #999;
+	-moz-box-shadow: 0 8px 6px -6px #999;
+	box-shadow: 0 8px 6px -6px #999;
+}
+
+.navbar h4 {
+	color: #fff;
+}
+
+/* To get click effect on gifs */
+.list img:active {
+	opacity: 0.3;
+}
